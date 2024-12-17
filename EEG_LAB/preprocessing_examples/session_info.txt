@@ -1,0 +1,5 @@
+{
+    "Group1": {"bad_channels": ["Fp1", "Fp2", "FC2", "T7"]},
+    "Group5": {"bad_channels": ["Fp1", "Fp2", "T7"]},
+    "Group6": {"bad_channels": ["TP10", "Fp1", "Fp2"]},
+}
