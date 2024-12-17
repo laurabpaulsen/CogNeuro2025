@@ -13,7 +13,7 @@ This folder holds the notebooks to use during the EEG lab. Additionally, the fol
 To avoid having to install the needed packages every time a new uCloud run is initialised, we will use a virtual environment. This is a way to create a Python environment that is independent of the system Python installation and it is saved in a folder, which means that you can just activate it everytime you start a new run.
 
 
-Navigate to the `EEG` folder and run the following command in the terminal:
+Navigate to the `EEG_LAB` folder and run the following command in the terminal:
 
 ```
 bash setup_env.sh
