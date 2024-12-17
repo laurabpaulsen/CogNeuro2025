@@ -13,4 +13,4 @@ fi
 source "$scriptDir/env/bin/activate"
 
 # Install IPython kernel within the virtual environment
-python3.10 -m ipykernel install --user --name=env
+python -m ipykernel install --user --name=env
