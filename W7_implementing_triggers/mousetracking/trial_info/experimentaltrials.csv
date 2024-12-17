@@ -1,0 +1,52 @@
+left_image;right_image;trial_type;correct_response;category;task;phase
+stimuli/experimental/ild_orange.png;stimuli/experimental/sne_bla.png;congruent;right;mood;snowflake;experimental
+stimuli/experimental/ild_bla.png;stimuli/experimental/sne_orange.png;incongruent;right;mood;snowflake;experimental
+stimuli/experimental/sol_gul.png;stimuli/experimental/sky_gra.png;congruent;left;mood;sun;experimental
+stimuli/experimental/sol_gra.png;stimuli/experimental/sky_gul.png;incongruent;right;mood;cloud;experimental
+stimuli/experimental/and_gul.png;stimuli/experimental/delfin_bla.png;congruent;right;animal;dolphin;experimental
+stimuli/experimental/and_bla.png;stimuli/experimental/delfin_gul.png;incongruent;left;animal;duck;experimental
+stimuli/experimental/banan_gul.png;stimuli/experimental/eble_rod.png;congruent;right;food;apple;experimental
+stimuli/experimental/eble_gul.png;stimuli/experimental/banan_rod.png;incongruent;left;food;apple;experimental
+stimuli/experimental/aubergine_lilla.png;stimuli/experimental/citron_gul.png;congruent;left;food;eggplant;experimental
+stimuli/experimental/citron_lilla.png;stimuli/experimental/aubergine_gul.png;incongruent;left;food;lemon;experimental
+stimuli/experimental/choko_brun.png;stimuli/experimental/jordber_rod.png;congruent;right;food;strawberry;experimental
+stimuli/experimental/choko_rod.png;stimuli/experimental/jordber_brun.png;incongruent;right;food;strawberry;experimental
+stimuli/experimental/krabbe_rod.png;stimuli/experimental/egern_brun.png;congruent;right;animal;squirrel;experimental
+stimuli/experimental/egern_rod.png;stimuli/experimental/krabbe_brun.png;incongruent;right;animal;crab;experimental
+stimuli/experimental/elefant_gra.png;stimuli/experimental/flamingo_pink.png;congruent;left;animal;elephant;experimental
+stimuli/experimental/elefant_pink.png;stimuli/experimental/flamingo_gra.png;incongruent;left;animal;elephant;experimental
+stimuli/experimental/glad_gron.png;stimuli/experimental/sur_rod.png;congruent;left;mood;happy face;experimental
+stimuli/experimental/sur_gron.png;stimuli/experimental/glad_rod.png;incongruent;right;mood;happy face;experimental
+stimuli/experimental/lidt_strom_gron.png;stimuli/experimental/meget_strom_rod.png;incongruent;right;mood;full battery;experimental
+stimuli/experimental/lidt_strom_rod.png;stimuli/experimental/meget_strom_gron.png;congruent;left;mood;low battery;experimental
+stimuli/experimental/svane_hvid.png;stimuli/experimental/slange_gron.png;congruent;left;animal;swan;experimental
+stimuli/experimental/slange_hvid.png;stimuli/experimental/svane_gron.png;incongruent;left;animal;snake;experimental
+stimuli/experimental/sne.png;stimuli/experimental/ild.png;neutral;left;mood;snowflake;experimental
+stimuli/experimental/sky.png;stimuli/experimental/sol.png;neutral;right;mood;sun;experimental
+stimuli/experimental/delfin.png;stimuli/experimental/and.png;neutral;left;animal;dolphin;experimental
+stimuli/experimental/eble.png;stimuli/experimental/banan.png;neutral;right;food;banana;experimental
+stimuli/experimental/aubergine.png;stimuli/experimental/citron.png;neutral;right;food;lemon;experimental
+stimuli/experimental/jordber.png;stimuli/experimental/choko.png;neutral;left;food;strawberry;experimental
+stimuli/experimental/krabbe.png;stimuli/experimental/egern.png;neutral;left;animal;crab;experimental
+stimuli/experimental/flamingo.png;stimuli/experimental/elefant.png;neutral;left;animal;flamingo;experimental
+stimuli/experimental/glad.png;stimuli/experimental/sur.png;neutral;left;mood;happy face;experimental
+stimuli/experimental/fuld_batteri.png;stimuli/experimental/lav_batteri.png;neutral;right;mood;low battery;experimental
+stimuli/experimental/svane.png;stimuli/experimental/slange.png;neutral;right;animal;snake;experimental
+stimuli/experimental/fro.png;stimuli/experimental/bi.png;neutral;right;animal;bee;experimental
+stimuli/experimental/bretzel.png;stimuli/experimental/avo.png;neutral;left;food;pretzel;experimental
+stimuli/experimental/hjerte.png;stimuli/experimental/clover.png;neutral;right;mood;clover;experimental
+stimuli/experimental/diamant.png;stimuli/experimental/krone.png;neutral;left;mood;diamond;experimental
+stimuli/experimental/hummer.png;stimuli/experimental/skildpadde.png;neutral;right;animal;turtle;experimental
+stimuli/experimental/leber.png;stimuli/experimental/penge.png;neutral;right;mood;money;experimental
+stimuli/experimental/fro_gron.png;stimuli/experimental/bi_gul.png;congruent;left;animal;frog;experimental
+stimuli/experimental/fro_gul.png;stimuli/experimental/bi_gron.png;incongruent;right;animal;bee;experimental
+stimuli/experimental/bretzel_brun.png;stimuli/experimental/avo_gron.png;congruent;left;food;pretzel;experimental
+stimuli/experimental/avo_brun.png;stimuli/experimental/bretzel_gron.png;incongruent;right;food;pretzel;experimental
+stimuli/experimental/hjerte_gron.png;stimuli/experimental/clover_rod.png;incongruent;left;mood;heart;experimental
+stimuli/experimental/clover_gron.png;stimuli/experimental/hjerte_rod.png;congruent;right;mood;heart;experimental
+stimuli/experimental/krone_gul.png;stimuli/experimental/diamant_bla.png;congruent;left;mood;crown;experimental
+stimuli/experimental/krone_bla.png;stimuli/experimental/diamant_gul.png;incongruent;right;mood;diamond;experimental
+stimuli/experimental/hummer_rod.png;stimuli/experimental/skildpadde_gron.png;congruent;left;animal;lobster;experimental
+stimuli/experimental/hummer_gron.png;stimuli/experimental/skildpadde_rod.png;incongruent;right;animal;turtle;experimental
+stimuli/experimental/leber_gron.png;stimuli/experimental/penge_rod.png;incongruent;left;mood;lips;experimental
+stimuli/experimental/penge_gron.png;stimuli/experimental/leber_rod.png;congruent;right;mood;lips;experimental
