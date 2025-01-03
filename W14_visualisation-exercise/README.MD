@@ -1,0 +1,1 @@
+This directory holds the code for generating the plots used in the *visualising neuroimaging data* class. The notebook is to be used during class, where the task is to modify the existing plots to be as informative and intuitive as possible. 
