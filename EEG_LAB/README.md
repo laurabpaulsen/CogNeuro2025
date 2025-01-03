@@ -53,6 +53,9 @@ After preprocessing the data, the next step is to epoch the data. This is done i
 ### 5. Analysing EEG data (first steps)
 The remainder of today should be spend going through the [03-EEG_analysis.ipynb](03-EEG_analysis.ipynb) notebook. This notebook will guide you through some of the first steps of analysing EEG data by plotting!
 
+## Analysis of data from FaceWord experiment - Tuesday, Wednesday and Thursday
+See assignment on Brightspace!
+
 
 ## Analysis of data from your own experiments - Friday
 
