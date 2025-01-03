@@ -8,7 +8,7 @@ The plan for today is to introduce triggers into your own experiments for EEG.
 ## Experiment checklist
 - [ ] The experiment takes 10-15 minutes to run
 - [ ] All the paths are relative to the script running the experiment (See this [link](https://desktop.arcgis.com/en/arcmap/10.6/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm) for further explanation)
-- [ ] All paths are defined using `os` or `Pathlib`ensure that the correct slash is used to separate directory names based on the operating system. See example below:
+- [ ] All paths are defined using `os` ensure that the correct slash is used to separate directory names based on the operating system. See example below:
     ```python
     import os
 
