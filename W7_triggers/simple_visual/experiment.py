@@ -55,19 +55,12 @@ for stim, trigger in zip(["chili_gul.png", "chili_rod.png"], [1, 2]):
         # Flip the window to show the drawn stimulus
         win.flip()  
 
-    # wait for a click with the mouse + send a trigger when it is pressed
-    # Wait for a mouse click before continuing
+
+
     mouse_click = False
-    while not mouse_click:
-        if mouse.getPressed()[0]==1:  # Check if mouse is clicked
-            mouse_click = True  # Mouse click detected, exit the loop
-
-    # Send trigger after mouse click
-    win.callOnFlip(setParallelData, 3)  # For example, sending trigger 3 when the mouse is clicked
-    win.flip()
-
-    # add fixation cross, and a trigger for that!
-    for frame in range(60):
+    
+    # add fixation cross during which the participant can provide a response (e.g. click if stimuli is red), and a trigger for that!
+    for frame in range(300):
         stim_fix.draw()  # Draw the stimulus
 
         if frame == 1:  # When the stimulus first appears, trigger the parallel port
@@ -77,6 +70,21 @@ for stim, trigger in zip(["chili_gul.png", "chili_rod.png"], [1, 2]):
             win.callOnFlip(setParallelData, 0)
             pullTriggerDown = False  
 
+        if not mouse_click:
+            if mouse.getPressed()[0]==1:  # Check if mouse is clicked
+                mouse_click = True  # Mouse click detected, exit the loop
+
+                # Send trigger after mouse click
+                win.callOnFlip(setParallelData, 3)  # For example, sending trigger 3 when the mouse is clicked
+
         # Flip the window to show the drawn stimulus
         win.flip()
+
+        # if you want to continue to the next stimuli just after response is given
+        #if mouse_click:
+        #    win.callOnFlip(setParallelData, 0)
+        #    win.flip()
+        #    break
+        
+        
     
