@@ -57,7 +57,7 @@ for stim, trigger in zip(["chili_gul.png", "chili_rod.png"], [1, 2]):
 
 
 
-    mouse_click = False
+
     
     # add fixation cross during which the participant can provide a response (e.g. click if stimuli is red), and a trigger for that!
     for frame in range(300):
@@ -70,21 +70,16 @@ for stim, trigger in zip(["chili_gul.png", "chili_rod.png"], [1, 2]):
             win.callOnFlip(setParallelData, 0)
             pullTriggerDown = False  
 
-        if not mouse_click:
-            if mouse.getPressed()[0]==1:  # Check if mouse is clicked
-                mouse_click = True  # Mouse click detected, exit the loop
 
-                # Send trigger after mouse click
-                win.callOnFlip(setParallelData, 3)  # For example, sending trigger 3 when the mouse is clicked
+        if mouse.getPressed()[0]==1:  # Check if mouse is clicked
+            mouse_click = True  # Mouse click detected, exit the loop
 
+            # Send trigger code 3 after mouse click
+            setParallelData(3)
+            break # break out of the fixation cross loop
+                
         # Flip the window to show the drawn stimulus
         win.flip()
 
-        # if you want to continue to the next stimuli just after response is given
-        #if mouse_click:
-        #    win.callOnFlip(setParallelData, 0)
-        #    win.flip()
-        #    break
-        
         
     
