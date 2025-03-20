@@ -17,6 +17,6 @@ The plan for today is to introduce triggers into your own experiments for EEG.
     ```
 
 - [ ] All necessary files for the experiment are in a single folder, either on GitHub or on a USB stick for easy download to the experimental computer
-- [ ] The triggers used are between 1 and 256 (trigger 0 does not work!!)
+- [ ] The triggers used are between 1 and 255
 - [ ] The experiment contains many repetitions of each condition to allow averaging over many trials for analysis
 - [ ] The triggers.py script must be at same path as your experimental script 
