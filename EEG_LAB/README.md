@@ -57,12 +57,14 @@ The remainder of today should be spend going through the [03-EEG_analysis.ipynb]
 See assignment on Brightspace!
 
 ## Analysis of FaceWord data (stats both at group- and subject level) - Friday
-Today we will be conducting some statistical analysis of the EEG FaceWord data preprocessed by you and your peers!
+Today we will be conducting some statistical analysis of the EEG FaceWord data collected by you and your peers!
 
-We will be working through the following notebooks:
+In the [stats skeleton notebook](stats_skeleton.ipynb) you will conduct statistical analysis of the EEG data by getting inspiration from the following notebooks:
 - **04-windowed_mean_subject_lvl.ipynb & 05-windowed_mean_group_lvl.ipynb :** These notebooks introduce the concept of a windowed mean, where two conditions are compared by taking the mean of the signal in a certain time window in relevant sensors and comparing the means. This includes some basic plotting and statistical testing using a t-test.
 
 - **06-clusterbased_permutation.ipynb:** This notebook shows how to do a cluster-based permutation test. 
+
+- **OPTIONAL:** In the 07-decoding.ipynb you find examples of how to analyse EEG data using machine learning.
 
 
 ## Analysis of data from your own experiments - Monday class the week following the EEG lab
